@@ -33,6 +33,7 @@ gem 'sunspot_rails'                # solr-search engine support
 gem 'paper_trail'                  # audit trails
 gem 'whenever'                     # cron jobs
 gem 'squeel'                       # use ruby like syntax for queries instead of sql
+gem 'quiet_assets'
 
 group :development, :test do
   gem 'mysql2'                    # specified seperately in case you'd rather use sqlite3
