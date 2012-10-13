@@ -12,6 +12,7 @@ group :assets do
   gem 'uglifier',     '>= 1.0.3'  # js compressor, for rails
   gem 'twitter-bootstrap-rails'   # bootstrap styling
   gem 'bootstrap-sass'
+  gem 'font-awesome-sass-rails'
 end
 
 # UNIVERSAL GEMS
