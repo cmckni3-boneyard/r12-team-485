@@ -11,6 +11,7 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'  # scss compiler, for rails
   gem 'uglifier',     '>= 1.0.3'  # js compressor, for rails
   gem 'twitter-bootstrap-rails'   # bootstrap styling
+  gem 'bootstrap-sass'
 end
 
 # UNIVERSAL GEMS
@@ -52,6 +53,7 @@ group :development do
   gem 'pry-doc'             # documentation for pry
   gem 'wirb'                # irb colorization
   gem 'rails-erd'           # generates entity relationship diagram
+  gem 'thin'
 end
 
 group :test do
