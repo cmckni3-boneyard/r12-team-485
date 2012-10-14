@@ -25,6 +25,7 @@ gem 'cancan'                       # controller permissions
 gem 'cantango'                     # user roles for permissions
 gem 'devise'                       # authentication
 gem 'devise_invitable'             # email invite support
+gem 'activeadmin'
 gem 'switch_user'                  # admin flip between users
 gem 'kaminari'                     # pagination
 gem 'nested_form'                  # easy form helpers+ajax for related objects

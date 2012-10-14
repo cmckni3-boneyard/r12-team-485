@@ -1,4 +1,8 @@
 Purple::Application.routes.draw do
+  ActiveAdmin.routes(self)
+
+  devise_for :users, ActiveAdmin::Devise.config
+
   get "welcome/index", :as => :welcome
   get "welcome/about", :as => :about
   get "welcome/contact", :as => :contact
