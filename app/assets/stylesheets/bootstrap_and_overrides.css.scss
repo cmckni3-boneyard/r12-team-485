@@ -1,6 +1,7 @@
 $purple: #461D7C;
 $gold: #FDD023;
 $white: #FFF;
+$green: green;
 
 $navbarBackground: $purple;
 $navbarBackgroundHighlight: $purple;
@@ -20,5 +21,8 @@ body { padding-top: 60px; }
 .navbar {
 	.brand {
 		color: #FAFFB8;
+		span {
+			color: $green;
+		}
 	}
 }
