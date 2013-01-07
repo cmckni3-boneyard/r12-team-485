@@ -42,7 +42,7 @@ group :development, :test do
   gem 'mysql2'                    # specified seperately in case you'd rather use sqlite3
   gem 'rspec-rails'               # rspec testing
   gem 'fuubar'                    # progress bar for rspec tests
-  gem 'guard-rspec', '0.5.5'      # use guard for testing with rspec
+  gem 'guard-rspec'               # use guard for testing with rspec
   gem 'sunspot_solr'              # runs solr search engine without needing to download/configure it
   gem 'syntax_fix'                # rails generators still use ruby 1.8 hash styles, which will eventually deprecate...
 end
