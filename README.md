@@ -1,3 +1,3 @@
-[![project unmaintained](https://img.shields.io/badge/project-unmaintained-red.svg)](https://img.shields.io/badge/project-unmaintained-red.svg)
+[![Maintenance Status](https://img.shields.io/badge/maintenance-unmaintained-red.svg)](#maintenance-status)
 
 # Rails Rumble 2012
